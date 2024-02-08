@@ -20,7 +20,7 @@ Getting Started
 
 To view Max's portfolio website locally, simply clone this repository and open the index.html file in a web browser.
 
-https://github.com/MaxCode33/portfolio-website.git
+https://github.com/MaxCode33/portfolio-website.git.io
 cd portfolio-website
 
 Sections
