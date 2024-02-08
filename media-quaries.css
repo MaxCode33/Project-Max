@@ -1,0 +1,110 @@
+@media screen and (min-width:778px) {
+    #home {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+    }
+
+    .home-content {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    #portfolio {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 778px) {
+    #home {
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    #home {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+    }
+
+    .home-content {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .header {
+        display: flex;
+    }
+
+    .header img {
+        width: 70px;
+        margin-left: 20px;
+    }
+
+    .logo {
+        font-size: 19px;
+    }
+
+    .navbar a {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    #about {
+        width: 100%;
+        height: 83vh;
+    }
+
+    .about-content p {
+        font-size: 18px;
+    }
+
+    .about-content h1 {
+        font-size: 46px;
+    }
+
+    .about-me>.part-1 {
+        font-size: 27px;
+    }
+
+    .about-me p {
+        font-size: 19px;
+    }
+
+    .btn-download {
+        font-size: 16px;
+        width: 135px;
+        height: 34px;
+        background-size: 160%;
+    }
+
+    #portfolio {
+        width: 100%;
+        height: auto;
+    }
+
+    form {
+        margin: auto;
+        margin-right: 50%;
+    }
+}
+
+@media screen and (max-width: 662px) {
+    .navbar a {
+        display: inline-block;
+        font-size: 11.5px;
+    }
+
+    .header img {
+        width: 63px;
+    }
+
+    .logo {
+        font-size: 17px;
+    }
+}

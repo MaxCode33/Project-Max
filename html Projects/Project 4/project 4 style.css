@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    position: absolute;
+    direction: rtl;
+    left: 50%;
+    top: 50%;
+    height: 50vh;
+    margin-top: -250px;
+    width: 50vw;
+    margin-left: -500px;
+}
+
+#container .container-items {
+    text-align: center;
+}
+
+#container .container-items h1 {
+    font: normal normal normal 160px/231px Satisfy;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 36px #00000087;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+#container .container-items h3 {
+    font: normal normal normal 32px/38px Varela Round;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+#container .container-items p {
+    font: normal normal normal 16px/20px Varela Round;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: right;
+    direction: rtl;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.form-control {
+    color: #D3E10E;
+    width: 418px;
+    height: 50px;
+    text-align: right;
+    font: normal normal normal 16px/20px Varela Round;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+}
+
+.form-control input {
+    width: 418px;
+    height: 50px;
+    background: #F6F6F624 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+}
+
+.form-control>input[type=submit] {
+    top: 848px;
+    left: 410px;
+    width: 166px;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal normal 16px/20px Varela Round;
+    letter-spacing: 0px;
+    color: #1C1C1C;
+    margin-top: 20px;
+}

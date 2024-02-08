@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0c1022;
+    color: white;
+}
+
+#project-5 {
+    text-align: center;
+}
+
+#project-5 img {
+    width: 100vw;
+    margin: 50px 0 25px;
+}
+
+#project-title {
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #0c1022;
+}
+
+.project-content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1;
+    opacity: 0;
+    animation: sliderRight 1s ease forwards;
+    animation-delay: 1.3s
+}
+
+.project-content p {
+    font-size: 18px;
+    margin: 20px 0 20px;
+    opacity: 0;
+    animation: sliderLeft 1s ease forwards;
+    animation-delay: .7s
+}
+
+.btn {
+    margin: 1em;
+}
+
+@media screen and (max-width: 788px) {
+    .header img {
+        width: 70px;
+        margin-left: 20px;
+    }
+
+    .logo {
+        font-size: 19px;
+    }
+
+    .navbar a {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    #project-title {
+        height: 20vh;
+    }
+
+    .project-content h1 {
+        font-size: 50px;
+    }
+
+    .project-content p {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 16px;
+        width: 135px;
+        height: 34px;
+        background-size: 160%;
+    }
+
+    form {
+        margin: auto;
+        margin-right: 50%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .navbar a {
+        display: inline-block;
+        font-size: 11.5px;
+    }
+
+    .header img {
+        width: 63px;
+    }
+
+    .logo {
+        font-size: 17px;
+    }
+
+    .project-content h1 {
+        font-size: 47px;
+    }
+
+    .project-content p {
+        font-size: 15px;
+    }
+
+    .btn {
+        font-size: 15px;
+        width: 130px;
+        height: 33px;
+        background-size: 160%;
+    }
+}
