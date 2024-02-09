@@ -4,82 +4,110 @@
     box-sizing: border-box;
 }
 
-body {
-    background: transparent url('./project 5 assets/Path 15.png') 0% 0% no-repeat padding-box;
-}
-
-
-#container-content {
+section {
     width: 100vw;
-    align-content: center;
-    text-align: flex-start;
-    color: yellow;
-
-}
-
-#container-content>h1 {
-    top: 282px;
-    left: 526px;
-    width: 868px;
-    height: 113px;
-    text-align: right;
-    font: normal normal bold 86px/113px Assistant;
-    letter-spacing: 0px;
-    color: #D3E10E;
-    margin: auto;
-    margin-top: 300px;
-}
-
-#container-content>p {
-    top: 418px;
-    left: 600px;
-    width: 721px;
-    height: 26px;
-    text-align: center;
-    font: normal normal normal 20px/26px Assistant;
-    letter-spacing: 0px;
-    color: #F9F9F9;
-    margin: auto;
-}
-
-#form {
+    height: 743px;
+    background: transparent url(./project-5-assets/Path15.png) no-repeat padding-box;
+    background-size: cover;
     display: flex;
-    justify-content: center;
+    background-position: center bottom;
     align-items: center;
-    gap: 80px;
-    text-align: right;
-    direction: rtl;
-    margin-top: 350px;
-    margin-right: 50px;
+    justify-content: center;
 }
 
-.form-control {
+.container h1 {
+    font: normal normal bold 8vh/200px Assistant;
     color: #D3E10E;
-    width: 418px;
-    height: 50px;
+    text-align: center;
+}
+
+.container p {
+    font: normal normal normal 20px/26px Assistant;
+    color: #F9F9F9;
+    text-align: center;
+}
+
+.container-contact {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
     text-align: right;
+    margin-top: 50px;
+}
+
+.input {
+    width: min-content;
+    margin: 15px;
+}
+
+label {
     font: normal normal bold 16px/21px Assistant;
-    letter-spacing: 0px;
     color: #011560;
 }
 
-.form-control input {
-    width: 418px;
+input {
+    background: #F6F6F6;
     height: 50px;
-    background: #F6F6F6 0% 0% no-repeat padding-box;
+    width: 30vw;
     border: 0;
     border-bottom: 4px solid #D3E10E;
+    text-align: right;
+    font-size: 1.3rem;
+    padding: 5px;
 }
 
-.form-control>input[type=submit] {
-    top: 848px;
-    left: 410px;
-    width: 166px;
+button {
+    background: #D3E10E;
+    width: 15vw;
     height: 50px;
-    background: #D3E10E 0% 0% no-repeat padding-box;
-    text-align: center;
+    border: 0;
     font: normal normal bold 22px/30px Assistant;
-    letter-spacing: 0.33px;
     color: #011560;
-    margin-top: 20px;
+    margin: 0 20px 0 20px;
+}
+
+@media (max-width: 768px) {
+    section {
+        width: 100vw;
+        height: 350px;
+        background-position: center;
+        background: transparent url(./project-5-assets/Path15.png) no-repeat padding-box;
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container h1 {
+        font: normal normal bold 2.3rem/113px Assistant;
+        color: #D3E10E;
+        text-align: center;
+        font-size: 8vw;
+    }
+
+    .container p {
+        font: normal normal normal 20px/26px Assistant;
+        color: #F9F9F9;
+        text-align: center;
+        width: 80%;
+    }
+
+    .container-contact {
+        align-items: center;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    input {
+        width: 80vw;
+    }
+
+    button {
+        width: 80vw;
+    }
 }
