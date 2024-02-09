@@ -53,24 +53,48 @@
 
 @media screen and (max-width:1300px) {
     #container {
+        width: 100%;
         flex-direction: column;
-        width: fit-content;
     }
 
+    #container-img {
+        width: 100vw;
+        height: 30%;
+    }
+
+
     #container-content {
-        width: 90vw;
+        display: flex;
+        width: 55vw;
+        height: 80vh;
+        margin: auto;
+        margin-top: 20%;
+        margin-left: 25%;
     }
 
     #container-content>h2 {
         font: normal normal 900 28px/41px Heebo;
+        font-size: 60px;
+        margin-bottom: 50px;
     }
 
-    #container-img {
-        height: 20%;
-        width: 100%;
+    #container-content>p {
+        flex-wrap: wrap;
+        font-size: 30px;
+        margin-bottom: 30px;
     }
 
-    /* .form-control>input {
-        width: 286px;
-    } */
+    .form-control {
+        padding-bottom: 7%;
+    }
+
+    .form-control input {
+        width: 60vw;
+        height: 5vh;
+    }
+
+    .form-control>input[type=submit] {
+        width: 60vw;
+        height: 5vh;
+    }
 }
