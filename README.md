@@ -11,6 +11,7 @@ Table of Contents
         Languages
         About
         Portfolio
+        Projects
         Contact
     Footer
     Dependencies
