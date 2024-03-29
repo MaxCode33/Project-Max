@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0c1022;
+    color: white;
+}
+
+#project-3 {
+    text-align: center;
+}
+
+#project-3 img {
+    width: 100vw;
+    margin: 50px 0 25px;
+}
+
+#project-title {
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #0c1022;
+}
+
+.project-content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1;
+    opacity: 0;
+    animation: sliderRight 1s ease forwards;
+    animation-delay: 1.3s
+}
+
+.project-content p {
+    font-size: 18px;
+    margin: 20px 0 20px;
+    opacity: 0;
+    animation: sliderLeft 1s ease forwards;
+    animation-delay: .7s
+}
+
+.btn {
+    margin: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        padding: 20px 5%;
+    }
+
+    .header img {
+        margin-left: -30px;
+    }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .navbar a {
+        margin-left: 20px;
+    }
+
+    .btn {
+        width: 25%;
+    }
+
+    form {
+        margin: auto;
+        margin-right: 200px;
+    }
+
+}
+
+/* Medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .header {
+        padding: 20px 5%;
+    }
+
+    .header img {
+        margin-left: -30px;
+    }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .navbar a {
+        margin-left: 15px;
+    }
+
+    form {
+        margin: auto;
+        margin-right: 250px;
+    }
+}
+
+/* Larger screens */
+@media only screen and (min-width: 1025px) and (max-width: 1300px) {
+    .header {
+        padding: 20px 5%;
+    }
+
+    .header img {
+        margin-left: -30px;
+    }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .navbar a {
+        margin-left: 15px;
+    }
+
+    form {
+        margin: auto;
+        margin-right: 250px;
+    }
+}
