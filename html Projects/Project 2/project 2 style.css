@@ -5,12 +5,19 @@
 }
 
 
-.container {
+/* .container {
     width: 100vw;
     height: 60vh;
-    background: url('./project 2 assets/path 15.png');
+    /* background-repeat: no-repeat;
+    background-size: cover; 
+}*/
+
+.container>.container-img {
+    background-image: url("./project 2 assets/path 15.png");
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100vw;
+    height: 60vh;
 }
 
 .container-box {
